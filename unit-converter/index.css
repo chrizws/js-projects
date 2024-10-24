@@ -1,0 +1,133 @@
+body {
+    font-family: "Inter";
+    color: #3D3D3D;
+    text-align: center;
+
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 850px;
+    margin: 50px auto;
+    
+    background-color: black;
+}
+
+.container {
+    width: 550px;
+    height: 720px;
+    border-radius: 3px;
+    background-color: #F4F4F4;
+
+}
+
+.topcontainer {
+    background-color: #6943FF;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1#heading {
+    font-weight: 800;
+    font-size: 30px;
+    color: white;
+    line-height: 38px;
+    width: 450px;
+    height: 40px;
+    text-shadow: 0 0 1px white;
+
+}
+
+#input-box {
+    width: 90px;
+    height: 69px;
+    border: 2px solid #B295FF;
+    background-color: #6943FF;
+    border-radius: 5px;
+    color: white;
+    font-size: 55px;
+    font-weight: 800;
+    margin-top: -15px;
+    text-align: center;
+  
+}
+#convert-btn {
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 35px;
+    border: 0;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+
+.bottomcontainer {
+    box-sizing: border-box;
+    width: 100%;
+   
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    padding: 25px 30px 0 30px;
+    gap: 25px;
+
+}
+
+.results {
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    border: 0;
+    text-align: center;
+    color: #5A537B;
+ 
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.resultHeading {
+    
+    font-weight: 600;
+    font-size: 22px;
+    margin: 5px 0 0 0;
+ 
+    
+}
+
+.box {
+    display:flex;
+    width: 90%;
+    margin-top: -10px;
+
+}
+
+.resultBox {
+    width: 100%;
+    padding: 3px;
+    font-size: 17px;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3.resultSubtitle {
+    margin: 0 0 7px 0;
+    font-size: 19px;
+}

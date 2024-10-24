@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    font-family: "Karla";
+
+}
+
+.container {
+    background-color: #1F2937;
+    width: 600px;
+    height: 600px;
+
+    box-sizing: border-box;
+    padding: 80px 60px;
+    border: 6px solid rgb(202, 202, 202);
+    border-radius: 10px
+    
+}
+
+h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 5px;
+    max-width: 330px;
+    margin-top: 0;
+}
+
+#keyword {
+    color : #10B981;
+    font-weight: 800;
+}
+
+h3 {
+    color: #D5D4D8;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Inter";
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+#generate {
+    color: white;
+    height: 40px;
+    width: 160px;
+    background-color:#10B981;
+    border-radius: 5px;
+
+    box-shadow: 0px 1px 2px 0px #0000000D;
+
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+}
+#passLength {
+    width: 120px;
+    height: 32px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    color: black;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 9px;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid #2F3E53
+}
+
+.passwordContainer {
+    display: flex;
+    justify-content:baseline;
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+#pass1, #pass2 {
+    box-sizing: border-box;
+    height: 45px;
+    width: 230px;
+    color: #55F991;
+    background: #273549;
+    border-radius: 5px;
+    text-align: center;
+    padding: 13px 0;
+    
+
+}
+
+
+#pass2 {
+    margin-left: 25px;
+}
+
+.saved {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
